@@ -1,0 +1,3133 @@
+[
+  {
+    "ts": "2023-07-21T09:43:05.654Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "1u2PopHTz5ipSc3fQXX5Mc",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:16.088Z",
+            "updatedAt": "2023-01-12T17:25:27.280Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:27.280Z",
+            "firstPublishedAt": "2023-01-10T20:51:33.705Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "1JSyvUW6IEcZPYdXZMJrjI"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Never pay for a homepage again"
+            },
+            "text": {
+              "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "1u2PopHTz5ipSc3fQXX5Mc",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:16.088Z",
+            "updatedAt": "2023-01-12T17:25:27.280Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:27.280Z",
+            "firstPublishedAt": "2023-01-10T20:51:33.705Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "1JSyvUW6IEcZPYdXZMJrjI"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Never pay for a homepage again"
+            },
+            "text": {
+              "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/1u2PopHTz5ipSc3fQXX5Mc",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 322
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"1JSyvUW6IEcZPYdXZMJrjI\"}}},\"heading\":{\"en-US\":\"Never pay for a homepage again\"},\"text\":{\"en-US\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"}}}"
+        },
+        "requestId": "ed7880cc-4b32-49ea-8caf-1e1b7b33ed6e"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:05.662Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "1CnTrUmN5ebFi779fuSdY3",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:16.087Z",
+            "updatedAt": "2023-01-12T17:25:27.787Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:27.787Z",
+            "firstPublishedAt": "2023-01-10T20:51:34.889Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "6DJgoaH1TSAoqCEwLd43mo"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Zero downtime"
+            },
+            "text": {
+              "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "1CnTrUmN5ebFi779fuSdY3",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:16.087Z",
+            "updatedAt": "2023-01-12T17:25:27.787Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:27.787Z",
+            "firstPublishedAt": "2023-01-10T20:51:34.889Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "6DJgoaH1TSAoqCEwLd43mo"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Zero downtime"
+            },
+            "text": {
+              "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/1CnTrUmN5ebFi779fuSdY3",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 305
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"6DJgoaH1TSAoqCEwLd43mo\"}}},\"heading\":{\"en-US\":\"Zero downtime\"},\"text\":{\"en-US\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"}}}"
+        },
+        "requestId": "de1ec12a-7bba-461d-87b8-92680c26ff4e"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:05.672Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "4MwM1Tj0WO5GmlVt46Lvn9",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:16.242Z",
+            "updatedAt": "2023-01-12T17:25:27.530Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:27.530Z",
+            "firstPublishedAt": "2023-01-10T20:51:34.330Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "37zIn7p0Ojc2rgyGaX3CI"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Automate everything"
+            },
+            "text": {
+              "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "4MwM1Tj0WO5GmlVt46Lvn9",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:16.242Z",
+            "updatedAt": "2023-01-12T17:25:27.530Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:27.530Z",
+            "firstPublishedAt": "2023-01-10T20:51:34.330Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "37zIn7p0Ojc2rgyGaX3CI"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Automate everything"
+            },
+            "text": {
+              "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/4MwM1Tj0WO5GmlVt46Lvn9",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 294
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"37zIn7p0Ojc2rgyGaX3CI\"}}},\"heading\":{\"en-US\":\"Automate everything\"},\"text\":{\"en-US\":\"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\"}}}"
+        },
+        "requestId": "888ee6f2-f2b5-4355-991f-1bbbfb81f3f3"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:09.694Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "JXP4ZSuOFRnvFXbvByFew",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:20.114Z",
+            "updatedAt": "2023-01-12T17:25:35.287Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:35.287Z",
+            "firstPublishedAt": "2023-01-10T20:51:45.362Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "5boa41st6eC2b0PqgWfUs9"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Stay in the loop"
+            },
+            "text": {
+              "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "JXP4ZSuOFRnvFXbvByFew",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:20.114Z",
+            "updatedAt": "2023-01-12T17:25:35.287Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:35.287Z",
+            "firstPublishedAt": "2023-01-10T20:51:45.362Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "5boa41st6eC2b0PqgWfUs9"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Stay in the loop"
+            },
+            "text": {
+              "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/JXP4ZSuOFRnvFXbvByFew",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 308
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"5boa41st6eC2b0PqgWfUs9\"}}},\"heading\":{\"en-US\":\"Stay in the loop\"},\"text\":{\"en-US\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"}}}"
+        },
+        "requestId": "13c76aed-1d4c-4e3f-8d0b-48cb1c6c2601"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:09.704Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "wbmlvKVS92206Yr7BIWJc",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:20.241Z",
+            "updatedAt": "2023-01-12T17:25:35.539Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:35.539Z",
+            "firstPublishedAt": "2023-01-10T20:51:45.645Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "1hMYL4ThUzE3HOoBccrAOr"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Stay dry"
+            },
+            "text": {
+              "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "wbmlvKVS92206Yr7BIWJc",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:20.241Z",
+            "updatedAt": "2023-01-12T17:25:35.539Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:35.539Z",
+            "firstPublishedAt": "2023-01-10T20:51:45.645Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "1hMYL4ThUzE3HOoBccrAOr"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Stay dry"
+            },
+            "text": {
+              "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/wbmlvKVS92206Yr7BIWJc",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 284
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"1hMYL4ThUzE3HOoBccrAOr\"}}},\"heading\":{\"en-US\":\"Stay dry\"},\"text\":{\"en-US\":\"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\"}}}"
+        },
+        "requestId": "d0eb8c60-d89b-4823-9d31-b97a1ec1f783"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:09.711Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "29FZ9n1BsU1581telq0BZw",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:20.104Z",
+            "updatedAt": "2023-01-12T17:25:34.954Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:34.954Z",
+            "firstPublishedAt": "2023-01-10T20:51:44.921Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "7zaZlhlcchnVCDg86U39kr"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Automate everything"
+            },
+            "text": {
+              "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "29FZ9n1BsU1581telq0BZw",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:20.104Z",
+            "updatedAt": "2023-01-12T17:25:34.954Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:34.954Z",
+            "firstPublishedAt": "2023-01-10T20:51:44.921Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "7zaZlhlcchnVCDg86U39kr"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Automate everything"
+            },
+            "text": {
+              "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/29FZ9n1BsU1581telq0BZw",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 295
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"7zaZlhlcchnVCDg86U39kr\"}}},\"heading\":{\"en-US\":\"Automate everything\"},\"text\":{\"en-US\":\"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\"}}}"
+        },
+        "requestId": "9e6f8b0d-ee1a-40f3-8bbb-a70015262a53"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:11.756Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "6mJVwBpFHa65Jx4i5z56ht",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.125Z",
+            "updatedAt": "2023-01-12T17:25:44.008Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:44.008Z",
+            "firstPublishedAt": "2023-01-10T20:51:56.655Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "13qttL5LmvuF1Fyob5PysZ"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Love our users"
+            },
+            "text": {
+              "en-US": "We listen to the user and also hear their unstated needs."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "6mJVwBpFHa65Jx4i5z56ht",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.125Z",
+            "updatedAt": "2023-01-12T17:25:44.008Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:44.008Z",
+            "firstPublishedAt": "2023-01-10T20:51:56.655Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "13qttL5LmvuF1Fyob5PysZ"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Love our users"
+            },
+            "text": {
+              "en-US": "We listen to the user and also hear their unstated needs."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/6mJVwBpFHa65Jx4i5z56ht",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 240
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"13qttL5LmvuF1Fyob5PysZ\"}}},\"heading\":{\"en-US\":\"Love our users\"},\"text\":{\"en-US\":\"We listen to the user and also hear their unstated needs.\"}}}"
+        },
+        "requestId": "7d97ef0b-4797-458c-8159-b1cf837fb3d2"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:11.789Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "4QYcO6fSFty2j2xNe6KWO2",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.231Z",
+            "updatedAt": "2023-01-12T17:25:43.075Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:43.075Z",
+            "firstPublishedAt": "2023-01-10T20:51:55.489Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "2luqFU3b5iK4zyrXYN81Nf"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Care about our team"
+            },
+            "text": {
+              "en-US": "Bottleneck mice table the discussion offline"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "4QYcO6fSFty2j2xNe6KWO2",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.231Z",
+            "updatedAt": "2023-01-12T17:25:43.075Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:43.075Z",
+            "firstPublishedAt": "2023-01-10T20:51:55.489Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "2luqFU3b5iK4zyrXYN81Nf"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Care about our team"
+            },
+            "text": {
+              "en-US": "Bottleneck mice table the discussion offline"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/4QYcO6fSFty2j2xNe6KWO2",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 232
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"2luqFU3b5iK4zyrXYN81Nf\"}}},\"heading\":{\"en-US\":\"Care about our team\"},\"text\":{\"en-US\":\"Bottleneck mice table the discussion offline\"}}}"
+        },
+        "requestId": "c5700533-5421-433c-adff-f425010cf50e"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:11.789Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "c8uhWkUuFuohJ8FREQBnc",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.112Z",
+            "updatedAt": "2023-01-12T17:25:44.265Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:44.265Z",
+            "firstPublishedAt": "2023-01-10T20:51:56.921Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "6za35WgLgHx2zNeC1ajESh"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Details, details, details"
+            },
+            "text": {
+              "en-US": "Brand terrorists onward and upward!"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "c8uhWkUuFuohJ8FREQBnc",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.112Z",
+            "updatedAt": "2023-01-12T17:25:44.265Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:44.265Z",
+            "firstPublishedAt": "2023-01-10T20:51:56.921Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "6za35WgLgHx2zNeC1ajESh"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Details, details, details"
+            },
+            "text": {
+              "en-US": "Brand terrorists onward and upward!"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/c8uhWkUuFuohJ8FREQBnc",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 229
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"6za35WgLgHx2zNeC1ajESh\"}}},\"heading\":{\"en-US\":\"Details, details, details\"},\"text\":{\"en-US\":\"Brand terrorists onward and upward!\"}}}"
+        },
+        "requestId": "d68644a1-5d36-48f6-bee4-a3373d24bcd2"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:11.803Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "5Uynn2dxlI8rNK9PuTjHFW",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.271Z",
+            "updatedAt": "2023-01-12T17:25:42.475Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:42.475Z",
+            "firstPublishedAt": "2023-01-10T20:51:55.053Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "6DJgoaH1TSAoqCEwLd43mo"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Be excellent to each other"
+            },
+            "text": {
+              "en-US": "We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "5Uynn2dxlI8rNK9PuTjHFW",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.271Z",
+            "updatedAt": "2023-01-12T17:25:42.475Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:42.475Z",
+            "firstPublishedAt": "2023-01-10T20:51:55.053Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "6DJgoaH1TSAoqCEwLd43mo"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Be excellent to each other"
+            },
+            "text": {
+              "en-US": "We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/5Uynn2dxlI8rNK9PuTjHFW",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 289
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"6DJgoaH1TSAoqCEwLd43mo\"}}},\"heading\":{\"en-US\":\"Be excellent to each other\"},\"text\":{\"en-US\":\"We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves.\"}}}"
+        },
+        "requestId": "e5b887e3-ba29-4832-8db7-29546e53a3ad"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:11.804Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "1Wf3EbXLaOw1mWa4ZmAEAA",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.106Z",
+            "updatedAt": "2023-01-12T17:25:43.702Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:43.702Z",
+            "firstPublishedAt": "2023-01-10T20:51:56.224Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "5johWbdkCZnVpRjE3cdbFE"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Live our values"
+            },
+            "text": {
+              "en-US": "We live and breathe integrity, empathy, and quality. Always and in everything we do."
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "1Wf3EbXLaOw1mWa4ZmAEAA",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.106Z",
+            "updatedAt": "2023-01-12T17:25:43.702Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:43.702Z",
+            "firstPublishedAt": "2023-01-10T20:51:56.224Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "5johWbdkCZnVpRjE3cdbFE"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Live our values"
+            },
+            "text": {
+              "en-US": "We live and breathe integrity, empathy, and quality. Always and in everything we do."
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/1Wf3EbXLaOw1mWa4ZmAEAA",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 268
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"5johWbdkCZnVpRjE3cdbFE\"}}},\"heading\":{\"en-US\":\"Live our values\"},\"text\":{\"en-US\":\"We live and breathe integrity, empathy, and quality. Always and in everything we do.\"}}}"
+        },
+        "requestId": "332ac79e-5eb3-4e14-9704-8e83cc5e37c6"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:11.806Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3WWgrrT7ValibYRXpkaR1K",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.128Z",
+            "updatedAt": "2023-01-12T17:25:43.441Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:43.441Z",
+            "firstPublishedAt": "2023-01-10T20:51:55.776Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "37zIn7p0Ojc2rgyGaX3CI"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Push the limits"
+            },
+            "text": {
+              "en-US": "We love breaking new grounds, and revel in unknowns. Always ask “why not?”"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "3WWgrrT7ValibYRXpkaR1K",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:24.128Z",
+            "updatedAt": "2023-01-12T17:25:43.441Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:43.441Z",
+            "firstPublishedAt": "2023-01-10T20:51:55.776Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefit"
+              }
+            }
+          },
+          "fields": {
+            "image": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "37zIn7p0Ojc2rgyGaX3CI"
+                }
+              }
+            },
+            "heading": {
+              "en-US": "Push the limits"
+            },
+            "text": {
+              "en-US": "We love breaking new grounds, and revel in unknowns. Always ask “why not?”"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/3WWgrrT7ValibYRXpkaR1K",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefit",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 261
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"image\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"37zIn7p0Ojc2rgyGaX3CI\"}}},\"heading\":{\"en-US\":\"Push the limits\"},\"text\":{\"en-US\":\"We love breaking new grounds, and revel in unknowns. Always ask “why not?”\"}}}"
+        },
+        "requestId": "db84f8b8-1115-4d45-b4e6-68181ad01f61"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:16.779Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "5M7IzLNkDdXrl7kELfHZlD",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.128Z",
+            "updatedAt": "2023-01-12T17:25:54.354Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:54.354Z",
+            "firstPublishedAt": "2023-01-10T20:52:12.219Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefitList"
+              }
+            }
+          },
+          "fields": {
+            "heading": {
+              "en-US": "Company culture comes in many shapes and forms, but we particularly pride ourselves on:"
+            },
+            "content": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "5Uynn2dxlI8rNK9PuTjHFW"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4QYcO6fSFty2j2xNe6KWO2"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3WWgrrT7ValibYRXpkaR1K"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1Wf3EbXLaOw1mWa4ZmAEAA"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6mJVwBpFHa65Jx4i5z56ht"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "c8uhWkUuFuohJ8FREQBnc"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "5M7IzLNkDdXrl7kELfHZlD",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:29.128Z",
+            "updatedAt": "2023-01-12T17:25:54.354Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:54.354Z",
+            "firstPublishedAt": "2023-01-10T20:52:12.219Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefitList"
+              }
+            }
+          },
+          "fields": {
+            "heading": {
+              "en-US": "Company culture comes in many shapes and forms, but we particularly pride ourselves on:"
+            },
+            "content": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "5Uynn2dxlI8rNK9PuTjHFW"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4QYcO6fSFty2j2xNe6KWO2"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3WWgrrT7ValibYRXpkaR1K"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1Wf3EbXLaOw1mWa4ZmAEAA"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6mJVwBpFHa65Jx4i5z56ht"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "c8uhWkUuFuohJ8FREQBnc"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/5M7IzLNkDdXrl7kELfHZlD",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefitList",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 604
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"heading\":{\"en-US\":\"Company culture comes in many shapes and forms, but we particularly pride ourselves on:\"},\"content\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"5Uynn2dxlI8rNK9PuTjHFW\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"4QYcO6fSFty2j2xNe6KWO2\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3WWgrrT7ValibYRXpkaR1K\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"1Wf3EbXLaOw1mWa4ZmAEAA\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"6mJVwBpFHa65Jx4i5z56ht\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"c8uhWkUuFuohJ8FREQBnc\"}}]}}}"
+        },
+        "requestId": "a4667bb1-fcfc-4a60-ba63-6fc10c019aad"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:43:18.799Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "2jXaVbXIICkY64kfWAajfl",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:31.324Z",
+            "updatedAt": "2023-01-12T17:25:59.214Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:59.214Z",
+            "firstPublishedAt": "2023-01-10T20:52:18.160Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefitList"
+              }
+            }
+          },
+          "fields": {
+            "heading": {
+              "en-US": "Get started in minutes and make it your own"
+            },
+            "text": {
+              "en-US": "Everything you need to start creating a homepage today"
+            },
+            "name": {
+              "en-US": "Benefits"
+            },
+            "content": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1u2PopHTz5ipSc3fQXX5Mc"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4MwM1Tj0WO5GmlVt46Lvn9"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1CnTrUmN5ebFi779fuSdY3"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "29FZ9n1BsU1581telq0BZw"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "JXP4ZSuOFRnvFXbvByFew"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "wbmlvKVS92206Yr7BIWJc"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "blm4zeeq0l7e"
+              }
+            },
+            "id": "2jXaVbXIICkY64kfWAajfl",
+            "type": "Entry",
+            "createdAt": "2023-01-10T20:51:31.324Z",
+            "updatedAt": "2023-01-12T17:25:59.214Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2023-01-12T17:25:59.214Z",
+            "firstPublishedAt": "2023-01-10T20:52:18.160Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4mp7BUWgAkTDJ8ucasjjQx"
+              }
+            },
+            "automationTags": [
+            ],
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageBenefitList"
+              }
+            }
+          },
+          "fields": {
+            "heading": {
+              "en-US": "Get started in minutes and make it your own"
+            },
+            "text": {
+              "en-US": "Everything you need to start creating a homepage today"
+            },
+            "name": {
+              "en-US": "Benefits"
+            },
+            "content": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1u2PopHTz5ipSc3fQXX5Mc"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4MwM1Tj0WO5GmlVt46Lvn9"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1CnTrUmN5ebFi779fuSdY3"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "29FZ9n1BsU1581telq0BZw"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "JXP4ZSuOFRnvFXbvByFew"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "wbmlvKVS92206Yr7BIWJc"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/2jXaVbXIICkY64kfWAajfl",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Content-Type": "homepageBenefitList",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 661
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"heading\":{\"en-US\":\"Get started in minutes and make it your own\"},\"text\":{\"en-US\":\"Everything you need to start creating a homepage today\"},\"name\":{\"en-US\":\"Benefits\"},\"content\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"1u2PopHTz5ipSc3fQXX5Mc\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"4MwM1Tj0WO5GmlVt46Lvn9\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"1CnTrUmN5ebFi779fuSdY3\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"29FZ9n1BsU1581telq0BZw\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"JXP4ZSuOFRnvFXbvByFew\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"wbmlvKVS92206Yr7BIWJc\"}}]}}}"
+        },
+        "requestId": "fcbd0626-0cc2-4898-8279-06b1b8f49c92"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:44:01.229Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "7aqrcvh4wxoj"
+            }
+          },
+          "id": "1zzRbzEpxqUFmclOIbcipZ",
+          "type": "Entry",
+          "createdAt": "2023-07-21T09:43:20.044Z",
+          "updatedAt": "2023-07-21T09:43:20.044Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2FnYFYpjz0QAgm9ZWDI4ee"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2FnYFYpjz0QAgm9ZWDI4ee"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "homepage"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Gatsby Contentful Homepage Starter"
+          },
+          "description": {
+            "en-US": "A Gatsby Starter for building a homepage with Contentful"
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "U3SK6xjRhpQRa9vJy8nyM"
+              }
+            }
+          },
+          "content": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5YY2FiEYKfZOuDIjzw6Vpi"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5iQbzdKPBQCy98WtkX5bT3"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1n4Lbi6fppcwcLk7KoojT3"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4kqp7xq4OJJjUzj8xFn0Qi"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2jXaVbXIICkY64kfWAajfl"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5pO4xzQ5snL2qQAezQUZJE"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4SkSElOYlaa56pRMyXKxIZ"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1UIHNoT0Wp6bIogEEcCQjt"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2jXaVbXIICkY64kfWAajfl"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                4
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/1zzRbzEpxqUFmclOIbcipZ/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "fdee57fe-3409-409f-9d21-6d9c50287501"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:44:04.310Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "7aqrcvh4wxoj"
+            }
+          },
+          "id": "1zzRbzEpxqUFmclOIbcipZ",
+          "type": "Entry",
+          "createdAt": "2023-07-21T09:43:20.044Z",
+          "updatedAt": "2023-07-21T09:43:20.044Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2FnYFYpjz0QAgm9ZWDI4ee"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "2FnYFYpjz0QAgm9ZWDI4ee"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "homepage"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Gatsby Contentful Homepage Starter"
+          },
+          "description": {
+            "en-US": "A Gatsby Starter for building a homepage with Contentful"
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "U3SK6xjRhpQRa9vJy8nyM"
+              }
+            }
+          },
+          "content": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5YY2FiEYKfZOuDIjzw6Vpi"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5iQbzdKPBQCy98WtkX5bT3"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1n4Lbi6fppcwcLk7KoojT3"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4kqp7xq4OJJjUzj8xFn0Qi"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2jXaVbXIICkY64kfWAajfl"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5pO4xzQ5snL2qQAezQUZJE"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4SkSElOYlaa56pRMyXKxIZ"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1UIHNoT0Wp6bIogEEcCQjt"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2jXaVbXIICkY64kfWAajfl"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                4
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/7aqrcvh4wxoj/environments/master/entries/1zzRbzEpxqUFmclOIbcipZ/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.62; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.12.1; os Windows/v18.12.1;",
+            "CF-Sequence": "ad35ec48-d318-42b3-a887-555967cea358",
+            "Authorization": "Bearer ...1D1mM",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "99f9b091-77a0-4dc1-9f9e-4fb52c33fb00"
+      }
+    }
+  },
+  {
+    "ts": "2023-07-21T09:44:04.310Z",
+    "level": "error",
+    "error": "Could not publish the following entities: Gatsby Contentful Homepage Starter (1zzRbzEpxqUFmclOIbcipZ)"
+  }
+]
